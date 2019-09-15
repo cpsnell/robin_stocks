@@ -2,6 +2,13 @@
 #Portfolio
 # 15 September 2019
 
+# Run command -- python3 showstocks.py > mystocks.txt
+#
+#
+# Perform command -- cat mystocks.txt | grep -B 1 -A 6 "\Symbol:KO\n"
+# This will show one line before and 6 lines after
+# This will display the stock information appropriately
+
 from pprint import pprint
   
 import robin_stocks as r
